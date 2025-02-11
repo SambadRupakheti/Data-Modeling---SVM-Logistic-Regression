@@ -56,15 +56,6 @@ The dataset used is a collection of SMS messages with spam or ham labels. It con
 
 ---
 
-## Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/spam-classification.git
-   cd spam-classification
-   ```
----
-
 ## Project Structure
 
 ```
@@ -96,14 +87,10 @@ Both models were evaluated using **accuracy**, **precision**, **recall**, and **
 - **Precision:** 96.95%
 - **Recall:** 87.59%
 
-![Logistic Regression Confusion Matrix](images/logistic_regression_confusion_matrix.png)
-
 ### Support Vector Machine (SVM) Performance:
 - **Accuracy:** 98.16%
 - **Precision:** 99.22%
 - **Recall:** 87.59%
-
-![SVM Confusion Matrix](images/svm_confusion_matrix.png)
 
 ---
 
@@ -113,7 +100,6 @@ Both models were evaluated using **accuracy**, **precision**, **recall**, and **
 - **Spam messages** tend to be longer, and this feature helped improve model performance.
 - The models demonstrated strong potential for **real-world spam detection** in SMS applications.
 
-![SVM Decision Boundary](images/svm_decision_boundary.png)
 
 ---
 
